@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="content-language" content="ja">
+<title>Leaflet QuickStart 1</title>
+<!-- MAPBOX -->
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+  <div id='map' style='width: 400px; height: 300px;'></div>
+  <script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoicGVybm9kMTQiLCJhIjoiY2owdnU2bGJnMDA0ZTJ3cWk0c2pwZmZuciJ9.JzziXsub9lijkthfcCO6eQ';
+  var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/dark-v9'
+  });
+  </script>
+</body>
+</html>
