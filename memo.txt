@@ -1,0 +1,5 @@
+Leaflet uses WGS84.
+
+SuperReload: Ctrl + F5
+
+python -m http.server (for python3)

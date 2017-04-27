@@ -3,13 +3,14 @@
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="content-language" content="ja">
-<title>Leaflet QuickStart 1</title>
+<title>Mapservice4Taro</title>
 <!-- MAPBOX -->
 <script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
 <!-- LEAFLET -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
 <!-- BOOTSTRAP -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!-- <script src="./js/heatmap.js"></script> -->
@@ -33,11 +34,12 @@
       <div class="collapse navbar-collapse" id="bs-nav-demo">
         <ul class="nav navbar-nav">
           <li><a href="#">About</a></li>
+          <li><a href="#">Dataset</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">SignUP</a></li>
-          <li><a href="#">LogIn</a></li>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Sign In</a></li>
         </ul>
       </div>
     </div>
@@ -61,6 +63,20 @@
         <div class="jumbotron">
           <h2>Harvest map</h2>
           <div id="map2"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="jumbotron">
+            <h2>Soil Moisture</h2>
+            <div id="graphZone"></div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="jumbotron">
+            <h2>Soil Temperature</h2>
+            <div id="graphZone2"></div>
+          </div>
         </div>
       </div>
       <div class="row">
