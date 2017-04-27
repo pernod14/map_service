@@ -3,8 +3,22 @@ html, body  {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: black;
+  background-color: gray;
 }
-#map {
+
+#map1 {
   height: 400px;
+}
+
+#map2 {
+  height: 400px;
+}
+
+h2 {
+  color: gray;
+}
+
+.jumbotron p {
+  color: gray;
+  font-size: 15px;
 }
